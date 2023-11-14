@@ -1,0 +1,10 @@
+.messages {
+  flex: auto;
+  background-image: url("../../resources/ChatBackground.png");
+  background-repeat: repeat;
+  background-position: center;
+  height: 330px;
+  padding: 30px;
+  padding: 5% 0;
+  overflow: auto;
+}

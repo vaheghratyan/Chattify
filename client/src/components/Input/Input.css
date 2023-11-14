@@ -1,0 +1,70 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 62px;
+  border-top: 1px solid lightgray;
+  font-family: "Nunito", sans-serif;
+}
+
+.footer > form {
+  flex: 1;
+  display: flex;
+}
+
+.footer > form > input {
+  flex: 1;
+  outline-width: 0;
+  border-radius: 30px;
+  padding: 10px;
+  border: 1px solid lightgray;
+}
+
+.footer > form > button {
+  display: none;
+}
+
+.footer > .MuiSvgIcon-root {
+  padding: 10px;
+  color: gray;
+}
+
+.sendButton {
+  margin-right: 8px;
+  color: black;
+  border: 0;
+  background: none;
+  border-radius: 24px;
+  border: 1px solid #0ec43b;
+  cursor: pointer;
+  height: 40px;
+  width: 60px;
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+  outline-width: 0;
+}
+
+.sendButton:hover {
+  background: -webkit-linear-gradient(left, #86d446, #0ec43b);
+  color: white;
+}
+
+.sendIcon {
+  color: #0ec43b;
+  margin-left: -8px;
+  margin-top: -3px;
+  width: 60px;
+  height: 42px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sendIcon:hover {
+  color: white;
+}
+
+.telegramIcon {
+  transform: scale(1.3);
+}

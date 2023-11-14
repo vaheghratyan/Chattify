@@ -1,0 +1,105 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: -webkit-linear-gradient(left, #b7fc80, #24d14f);
+  font-family: "Nunito", sans-serif;
+  height: 90vh;
+}
+
+h2 {
+  font-size: 70px;
+  margin-left: 270px;
+}
+
+.appLogo {
+  overflow: hidden;
+  z-index: 2;
+  position: absolute;
+  height: 20%;
+  margin-left: 540px;
+  margin-top: -170px;
+}
+
+.cont {
+  margin-top: 50px;
+  overflow: hidden;
+  position: relative;
+  width: 900px;
+  height: 550px;
+  background: #fff;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+  border-radius: 20px;
+}
+
+.sign-in {
+  padding-top: 100px;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+.login-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.block {
+  margin-top: -15px;
+  display: flex;
+  justify-content: center;
+}
+
+.signInBlock {
+  margin-top: -60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.join {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.textInput {
+  margin-bottom: 10px;
+  text-align: center;
+  border-radius: 24px;
+  border: 1px solid #0fd361;
+  color: black;
+  width: 250px;
+  height: 40px;
+  font-family: "Nunito", sans-serif;
+  font-size: 15px;
+  outline-width: 0;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.signinButton {
+  color: black;
+  border: 0;
+  background: none;
+  border-radius: 24px;
+  border: 1px solid #0fd361;
+  cursor: pointer;
+  height: 40px;
+  width: 100px;
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+  outline-width: 0;
+}
+
+.signinButton:hover {
+  background: -webkit-linear-gradient(left, #86d446, #0ec43b);
+  color: white;
+  border: none;
+}
+
+.textInput:focus {
+  width: 350px;
+}

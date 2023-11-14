@@ -1,0 +1,100 @@
+.messageBox {
+  background: #f3f3f3;
+  border-radius: 17px;
+  padding: 2px 20px;
+  color: white;
+  display: flex;
+  max-width: 80%;
+  flex-direction: column;
+}
+
+.messageText {
+  width: 100%;
+  letter-spacing: 0;
+  float: left;
+  font-size: 14px;
+  word-wrap: break-word;
+}
+
+.messageText img {
+  vertical-align: middle;
+}
+
+.messageTime {
+  display: flex;
+  justify-content: flex-end;
+  font-family: Helvetica;
+  font-size: 10px;
+  margin-right: -10px;
+  margin-bottom: -8px;
+  height: 12px;
+  align-items: flex-end;
+}
+
+.messageContainer {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 2%;
+  margin-top: 6px;
+}
+
+.sentText {
+  display: flex;
+  align-items: center;
+  font-family: Helvetica;
+  color: #828282;
+  letter-spacing: 0.3px;
+  font-size: 11px;
+}
+
+.admin-message {
+  display: flex;
+  align-self: center;
+  font-family: Helvetica;
+  color: rgba(0, 0, 0, 0.42);
+  letter-spacing: 0.3px;
+  font-size: 12px;
+}
+
+.pl-10 {
+  padding-left: 10px;
+}
+
+.pr-10 {
+  padding-right: 10px;
+}
+
+.justifyStart {
+  justify-content: flex-start;
+}
+
+.justifyCenter {
+  justify-content: center;
+}
+
+.justifyEnd {
+  justify-content: flex-end;
+}
+
+.colorWhite {
+  color: white;
+}
+
+.colorDark {
+  color: #635f5f;
+}
+
+.backgroundBlue {
+  background: -webkit-linear-gradient(left, #86d446, #0ec43b);
+}
+
+.backgroundLight {
+  background: #f3f3f3;
+}
+
+.profileImage {
+  border-radius: 50%;
+  height: 25px;
+  margin-left: -9px;
+  margin-top: -20px;
+}
